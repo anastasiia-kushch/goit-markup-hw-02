@@ -16,7 +16,7 @@ button {
     text-decoration: none;
 }
 
-#logo-web {
+.logo-web {
     color: var(#4D5AE5);
     font-family: Raleway;
     font-size: 18px;
