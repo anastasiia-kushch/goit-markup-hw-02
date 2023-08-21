@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -17,7 +17,7 @@ button {
 }
 
 .logo-web {
-    color: #2e2f42;
+    color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -60,9 +60,7 @@ address {
 .menu-link:hover,
 .menu-link:focus,
 .contacts-list-link:hover,
-.contacts-list-link:focus,
-.order-service-btn:hover,
-.order-service-btn:focus {
+.contacts-list-link:focus, {
     color:#404BBF;
 }
 
@@ -88,6 +86,10 @@ address {
     background-color: #4D5AE5;
 }
 
+.order-service-btn:hover,
+.order-service-btn:focus {
+    color:#404BBF;
+}
 
 
 .strategy-list-title, .our-portfolio-title {
@@ -95,6 +97,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .strategy-list-text, .our-portfolio-text {
