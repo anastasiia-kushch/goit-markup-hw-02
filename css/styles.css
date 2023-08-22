@@ -16,8 +16,13 @@ button {
     text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+    color: #404bbf;
+}
+
 .logo-web {
-    color: #f4f4fd;
+    color: #2e2f42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -61,7 +66,7 @@ address {
 .menu-link:hover,
 .menu-link:focus,
 .contacts-list-link:hover,
-.contacts-list-link:focus, {
+.contacts-list-link:focus {
     color:#404BBF;
 }
 
