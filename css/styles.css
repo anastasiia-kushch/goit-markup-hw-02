@@ -55,20 +55,22 @@ address {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .logo {
   font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--dark-cl);
+  color: var(--primary-brand-cl);
 }
 
 .logo-accent {
-  color: var(--primary-brand-cl);
+  color: var(--dark-cl);
 }
 
 /* #region HEADER */
@@ -98,15 +100,16 @@ address {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
   color: var(--white-background-cl);
   background-color: var(--primary-brand-cl);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -120,6 +123,8 @@ address {
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-cl);
+  font-weight: 500;
+  letter-spacing: 0.02;
 }
 
 .benefits-text {
@@ -133,11 +138,7 @@ address {
 }
 
 .team-item {
-  border-radius: 0px 0px 4px 4px;
   background-color: var(--white-background-cl);
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .member-name {
@@ -147,7 +148,6 @@ address {
 }
 
 .member-pos {
-  color: var(--subtle-text-cl);
   font-size: 16px;
   font-weight: 400;
 }
@@ -159,9 +159,12 @@ address {
 }
 
 .portfolio-title {
+  color: var(--dark-cl);
   font-size: 20px;
   line-height: 1.2;
-  color: var(--dark-cl);
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-text {
@@ -174,7 +177,7 @@ address {
   background-color: var(--dark-cl);
 }
 
-.footer .logo {
+.footer .logo-accent {
   color: var(--light-cl);
 }
 .footer-text {
